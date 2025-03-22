@@ -1,0 +1,92 @@
+
+body{
+    background-color: rgb(209, 184, 220);
+    margin: 0;
+    padding:0;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(236, 230, 238);
+    margin: 1rem 0;
+    padding: 2rem;
+}
+
+header img{
+    width:5%;
+    height: 5%;
+}
+
+section h2,h3{
+    text-align: center;
+    margin: 4px;
+}
+
+section{
+    padding: 2rem;
+}
+
+.tasks{
+    text-align: center;
+    background-color: rgb(236, 230, 238);
+}
+
+.tasks ol{
+    width: 35%;
+    text-align: left;
+    list-style-position: inside;
+    margin: 3rem auto;
+    font-size: 1.2rem;
+}
+
+.tasks ol li{
+    margin: .3rem;
+}
+
+.tasks_img{
+    width: 22%;
+    height: 20%;
+    border-radius: 20px;
+}
+
+.tasks_illustration{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(232, 124, 48);
+    border-radius: 25px;
+    padding: .4rem;
+    margin: 0 auto;
+}
+
+.tasks_illustration div img{
+    width: 45%;
+    height: 40%;
+    margin: 1rem;
+}
+
+.results_img{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(122, 99, 133);
+    margin: 0;
+    padding-top: .6rem;
+}
+
+footer ul{
+    list-style: none;
+    font-size: .85rem;
+}
+
+footer p{
+    font-size: .75rem;
+    text-align: center;
+    margin:0;
+}
