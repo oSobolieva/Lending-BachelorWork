@@ -70,6 +70,11 @@ section{
     margin: 1rem;
 }
 
+.tasks_illustration div img:hover{
+    cursor: pointer;
+    transform: scaleX(2.2) scaleY(2);;
+}
+
 .results_img{
     width: 100%;
 }
