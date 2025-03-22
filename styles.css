@@ -95,3 +95,56 @@ footer p{
     text-align: center;
     margin:0;
 }
+
+@media screen and (max-width: 1300px) {
+    .tasks_illustration {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1049px) {
+    .tasks_illustration {
+        width: 90%;
+    }
+
+    .tasks_illustration div img {
+        width: 35%;
+        height: 30%;
+        margin: .5rem;
+    }
+
+    .tasks_img {
+        width: 32%;
+        height: 30%;
+    }
+
+    .tasks ol{
+        width: 55%;
+    }
+}
+
+
+@media screen and (max-width: 699px) {
+    header img {
+        width: 15%;
+        height: 15%;
+    }
+
+    .tasks_illustration {
+        width: 90%;
+    }
+
+    .tasks_illustration div img {
+        width: 95%;
+        margin: .5rem;
+    }
+
+    .tasks_img {
+        width: 75%;
+    }
+
+    .tasks ol {
+        width: 85%;
+    }
+}
+
